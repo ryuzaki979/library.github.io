@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle{
+    transform: translate(262px,798px);
+    animation: animax 1s ease infinite alternate-reverse;
+}
+
+svg{
+    position: relative;
+}
+
+@keyframes animax{
+    0%{
+        transform: translate(262px,830px);
+    }
+    
+}
+
